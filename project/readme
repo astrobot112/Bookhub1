@@ -1,0 +1,4 @@
+Bash command to convert all pdf books to html:
+
+for file in *.pdf; do pdftohtml -i -noframes "$file" "$file.html"; done
+
